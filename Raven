@@ -1,0 +1,9 @@
+apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
+pop pop
+14. git clone https://github.com/tpruvot/cpuminer-multi
+
+15. cd cpuminer-multi
+
+16. ./build-linux-arm.sh
+
+17. ./cpuminer -a allium -o stratum+tcp://allium.sea.mine.zpool.ca:6433 -u RRJhLH9nq6cZGX58ycFksxoJL5HFEySksp -p c=RVN -t 10
